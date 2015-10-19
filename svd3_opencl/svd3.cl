@@ -352,7 +352,7 @@ void svd(// input A
     // QR decomposition
     QRDecomposition(b11, b12, b13, b21, b22, b23, b31, b32, b33,
     u11, u12, u13, u21, u22, u23, u31, u32, u33,
-    &s11, &s12, &s13, &s21, &s22, &s23, &s31, &s32, &s33
+    s11, s12, s13, s21, s22, s23, s31, s32, s33
     );
 }
 
