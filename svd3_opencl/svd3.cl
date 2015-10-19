@@ -15,9 +15,9 @@
 **
 **************************************************************************/
 
-#define _gamma 5.828427124 // FOUR_GAMMA_SQUARED = sqrt(8)+3;
-#define _cstar 0.923879532 // cos(pi/8)
-#define _sstar 0.3826834323 // sin(p/8)
+#define _gamma 5.828427124f // FOUR_GAMMA_SQUARED = sqrt(8)+3;
+#define _cstar 0.923879532f // cos(pi/8)
+#define _sstar 0.3826834323f // sin(p/8)
 #define EPSILON 1e-6
 
 float accurateSqrt(float x)
